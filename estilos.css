@@ -1,0 +1,52 @@
+body{
+    background-color:dimgray;
+    
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: 300px;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 5px;
+    transition: all .9s ease .1s;
+}
+.flex-item:hover{
+    background-color:springgreen;
+    transform: scale(1.1);
+}
+.flex-item:focus{
+    background-color:springgreen;
+    transform: scale(1.1);
+}
+
+div div img{
+    width: 150px;
+    height: 80px;
+    margin-left: 70px;
+}
+.flex-item h2, .flex-item h3, .flex-item p{
+    text-align: center;
+}
+
+h3 {
+    color: grey;
+}
+p b{
+    color: greenyellow;
+}
+
+input{
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    background-color:forestgreen;
+}
+
+form{
+    text-align: center;
+    
+}
+
